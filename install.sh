@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install proxmox-headers-$(uname -r) wget unzip dkms
+apt install -y proxmox-headers-$(uname -r) wget unzip dkms
 mkdir e810
 cd e810
 wget https://downloadmirror.intel.com/831137/Release_29.3.zip
